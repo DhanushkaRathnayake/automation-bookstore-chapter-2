@@ -1,3 +1,10 @@
+{
+  "reporter": "junit",
+    "reporterOptions": {
+    "mochaFile": "results/TEST-[hash].xml"
+  }
+}
+
 const { defineConfig } = require("cypress");
 
 
